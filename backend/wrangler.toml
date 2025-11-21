@@ -10,7 +10,7 @@ bindings = [
 
 [[migrations]]
 tag = "v1"
-new_classes = ["TripStore"]
+new_sqlite_classes = ["TripStore"]
 
 [env.production]
 name = "travel-planner-api-prod"
